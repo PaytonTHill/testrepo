@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payton Hill - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Payton Hill
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/paytonslim/files/download/?id=b9da39ce-b28e-49c2-9c4b-f362a0be5a31" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Payton Hill! <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/paytonslim/files/download/?id=721dbf1f-8910-4fb3-a94f-b6ac2a52e8cf" width="60px"/>
+          </h1>
+          <p>
+            I am the proud owner of the largest grocery outlet in Antarctica.
+            I have worked many years on acquiring the largest supply of penguin chops and walrus ribs.
+            I am looking for something new as business has not been well, due to there being no residents of antarctica.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>4 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/paytonslim/files/download/?id=e4548eb3-e952-4d1e-b410-2a87afa320c6"/>
+            <h6>Java</h6>
+            <p>4 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/paytonslim/files/download/?id=ffc22d44-3008-49e8-9682-cc786d3c7b11"/>
+            <h6>React</h6>
+            <p>2 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/paytonslim/files/download/?id=fae511c4-db87-4eb3-abb7-f6c097474aac"/>
+            <h6>Node.js</h6>
+            <p>4 years experience</p>
+          </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Sourcing</h3>
+            <ul>
+              <li>Sourced large quantities of penguin chops from wild, organic sources.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Developing</h3>
+            <ul>
+              <li>Developed a full function grocery outlet in a rather non-saturated market.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Profitability Record</h3>
+            <ul>
+              <li>Achieved the lowest profit a business has ever made; credited by the World Association of Fictional Facts.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Payton is a terrible entrepreneur, how he recieved funding from the national bank of Antarctica beats me. 
+          He has a great attitude and passion for the unthinkable. 
+          He has never had the greatest ideas. 
+          But he can turn fiction into a somewhat working reality.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Payton has been terrible. 
+          He can never focus, and whenever you need him to do something he will never finish it.
+          I would only work with him again if he could sit down and focus on a single task.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I was the one that approved of Payton's loan at the National Bank of Antarctica. 
+          I will admit, I may have mixed up the rejection stamp and the approve stamp. 
+          He still has not paid us back for his loan. I don't think he ever will seeing that nobody lives here.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for leaving a heartfelt recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
